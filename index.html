@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!--Acima adaptação para Internet Explore-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="./index.js" defer=""></script>
+  <!--O defer faz com que o script seja carregado após a página ser carregada-->
+  <link rel="stylesheet" href="./index.css">
+  <title>Destino</title>
+</head>
+
+<body>
+  <div id="container">
+    <img
+      src="img/cristal-ball.svg"
+      alt="Imagem de uma bola de cristal">
+    <h1>Vou revelar seu destino!</h1>
+    <p>Clique em fazer pergunta para que seu destino seja revelado.</p>
+    <input id="inputPergunta" type="text" placeholder="Digite sua pergunta">
+    <!-- A tag placeholder serve para por um texto dentro do input -->
+    <button id="buttonPerguntar" onclick="fazerPergunta()">Fazer Pergunta</button>
+
+    <h3 id="respostas">
+    </h3>
+  </div>
+</body>
+
+</html>
